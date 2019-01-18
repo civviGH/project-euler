@@ -1,0 +1,1 @@
+/home/voss/python/euler/aux.py
