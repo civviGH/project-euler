@@ -3,11 +3,8 @@
 from aux import *
 import math
 
-primes = []
 CEILING = 50000000
-for i in range(1, math.ceil(math.sqrt(CEILING))):
-	if checkPrime(i):
-		primes.append(i)
+primes = generatePrimes(1, math.ceil(math.sqrt(CEILING)))
 values = set()
 for p1 in primes:
 	p1_2 = p1**2

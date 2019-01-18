@@ -1,5 +1,12 @@
 import math
 
+def generatePrimes(n1, n2):
+	primes = []
+	for i in range(n1, n2+1):
+		if checkPrime(i):
+			primes.append(i)
+	return primes	
+
 def checkPrime(number):
   if number <= 1:
     return False

@@ -1,1 +1,1 @@
-/home/voss/python/euler/aux.py
+../aux.py
